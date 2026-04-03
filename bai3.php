@@ -18,10 +18,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <div class="container">
         <form class="form-group" action="" method="post">
-            <label for="bankinh">Bán kính:</label>
+            <label for="bankinh">Bán kính: </label>
             <input type="text" class="form-control" id="bankinh" name="bankinh" placeholder="Enter bán kính">
             <button type="submit">Submit</button>
         </form>
     </div>
+
 </body>
 </html>

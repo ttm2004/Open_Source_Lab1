@@ -38,3 +38,8 @@ MSSV: 2224802010260
 1. Clone repo về máy:
    ```bash
    git clone https://github.com/ttm2004/Open_Source_Lab1.git
+2. Copy vào thư mục htdocs của XAMPP
+
+3. Mở trình duyệt:
+    ```bash
+    http://localhost/Open_Source_Lab1

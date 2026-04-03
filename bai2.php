@@ -1,14 +1,11 @@
 <?php
 
-$chieudai = 0;
-$chieurong = 0;
-$dientich = 0;
-
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     $chieudai = $_POST['chieudai'];
     $chieurong = $_POST['chieurong'];
     $dientich = $chieudai * $chieurong;
+    echo "<script>alert('Diện tích: $dientich');</script>";
 }
 
 ?>
